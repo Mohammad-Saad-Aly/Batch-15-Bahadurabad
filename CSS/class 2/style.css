@@ -1,0 +1,88 @@
+/* h1{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    text-align: center;
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+} */
+
+
+
+/* *{
+    background-color: black;
+    color: white;
+} */
+
+
+/* h1{
+    background-color: black;
+    color: white;
+} */
+
+
+/* #abc{
+    background-color: red;
+} */
+
+
+/* .heading{
+    text-align: center;
+    background-color: #4bbf4d;
+} */
+
+/* @font-face {
+    font-family: 'smit';
+    src: url('./AntonSC-Regular.ttf');
+} */
+
+
+
+/* h1, p{ */
+
+    /* font-family: 'smit'; */
+
+    /* font-size: 400px; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* background-color: hsla(120, 71%, 46%, 0.8); */
+    /* background-color: rebeccapurple; */
+    /* opacity: 0.4; */
+/* } */
+
+/* @font-face {
+    font-family: 'saylani';
+    src: url('./AntonSC-Regular.ttf');
+}
+
+p{
+    font-family: 'saylani';
+} */
+
+p{
+    letter-spacing: 20px;
+    text-align: center;
+
+    border-bottom: 5px solid greenyellow;
+    width: 40%;
+
+
+    /* text-shadow: -10px -10px 10px black; */
+    font-weight: bolder;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    /* text-align: justify; */
+    /* text-decoration: line-through; */
+    /* line-height: 30px;
+    word-spacing: 10px; */
+}
+
+#text{
+    /* text-indent: 100px; */
+}
+
+
+/* p::first-line{
+    font-size: 70px;
+} */

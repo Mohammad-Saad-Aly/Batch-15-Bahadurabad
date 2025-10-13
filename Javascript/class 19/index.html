@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: black;
+            color: white;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            border: 5px groove yellow;
+            padding-bottom: 25px;
+            box-shadow: 10px 10px 10px red;
+            border-radius: 30px;
+            margin-top: 40px;
+        }
+
+        button{
+            border-radius: 10px;
+            width: 50px;
+            background-color: dodgerblue;
+            height: 30px;
+            color: white;
+            font-size: large;
+        }
+
+        body{
+            background-color: bisque;
+        }
+
+        input{
+            width: 70%;
+            height: 30px;
+            border-radius: 10px;
+            text-align: center;
+            border: 3px solid red;
+            font-size: larger;
+        }
+
+        .acha{
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="main">
+        <h1>Calculator</h1>
+        <div>
+            <input readonly type="text" name="" id="inp">
+            <br><br>
+            <button onclick="clrall()" class="acha">Clear All</button>
+            <button onclick="clr()" class="acha">Clear</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="dabaya(9)">9</button>
+            <button onclick="dabaya(8)">8</button>
+            <button onclick="dabaya(7)">7</button>
+            <button onclick="dabaya('+')">+</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="dabaya(6)">6</button>
+            <button onclick="dabaya(5)">5</button>
+            <button onclick="dabaya(4)">4</button>
+            <button onclick="dabaya('-')">-</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="dabaya(3)">3</button>
+            <button onclick="dabaya(2)">2</button>
+            <button onclick="dabaya(1)">1</button>
+            <button onclick="dabaya('*')">x</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="dabaya(0)">0</button>
+            <button onclick="dabaya('/')">/</button>
+            <button onclick="dabaya('.')">.</button>
+            <button onclick="eq()">=</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

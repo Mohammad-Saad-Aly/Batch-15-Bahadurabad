@@ -1,0 +1,137 @@
+/* a:link{
+    color: black;
+}
+
+a:visited{
+    color: red;
+} */
+
+/* input:hover{
+    background-color: aqua;
+    width: 50%;
+} */
+
+/* input:active{
+    background-color: red;
+} */
+
+/* input:focus{
+    background-color: green;
+} */
+
+/* body{
+    background-color: goldenrod;
+} */
+
+
+ /* .main{
+    font-size: xx-large;
+    background-color: gray;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px black;
+    border: 20px groove black;
+    color: whitesmoke; */
+
+    /* border-left: 10px solid red; */
+    /* border-left: none; */
+
+    /* margin: 200px;
+    margin-left: 380px; */
+    /* margin-top: 100px; */
+    /* margin-left: 200px; */
+    /* height: 300px;
+    overflow-y: hidden;
+    overflow-x: scroll; */
+ /* } */
+
+
+ /* .main{
+    background-color: aqua;
+   text-align: center;
+   margin-top: 130px;
+ } */
+
+
+
+/* .main > .sub{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 40px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    border: 3px groove red;
+} */
+
+
+/* .main > .sub:hover{
+    width: 30%;
+    transition: 1s;
+    transform: scale(1.5);
+} */
+
+/* ul{
+    background-color: gray;
+    padding: 10px;
+    padding-left: 50px;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    top: -20px;
+    width: 100%;
+} */
+
+
+/* ul > li{
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    margin-left: 70px;
+} */
+
+/* p{
+    padding-top: 20px;
+    margin-top: 30px;
+} */
+
+body{
+    background-color: rgb(235, 192, 230);
+}
+
+.first{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.child{
+    border: 3px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+
+.parent{
+    text-align: center;
+}
+
+
+.child > img{
+    width: 20%;
+}
+button{
+    width: 50%;
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+}

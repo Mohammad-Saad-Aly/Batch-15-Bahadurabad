@@ -1,0 +1,70 @@
+@media only screen and (min-width:801px) {
+
+  .parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .child {
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    width: 20%;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .child>img {
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (min-width:601px ) and (max-width:800px) {
+  .parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .child {
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    width: 40%;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .child>img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+  .parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .child {
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .child>img {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,107 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.main {
+  background: #ffffff;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search button {
+  padding: 10px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #0056b3;
+}
+
+.search button:last-child {
+  background-color: #dc3545;
+}
+
+.search button:last-child:hover {
+  background-color: #a71d2a;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lists li {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  gap: 8px;
+}
+
+.btns button {
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btns button:first-child {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btns button:first-child:hover {
+  background-color: #e0a800;
+}
+
+.btns button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btns button:last-child:hover {
+  background-color: #a71d2a;
+}

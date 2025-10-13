@@ -1,0 +1,39 @@
+.main{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 30%;
+    font-size: x-large;
+}
+
+.child2 > img{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+    /* .main{
+        background-color: bisque;
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+     */
+    .child{
+        width: 80%;
+        font-size: large;
+    }
+    .child2{
+        width: 80%;
+    }
+}

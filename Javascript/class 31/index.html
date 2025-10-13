@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Quiz Application SMIT</h1>
+        <hr><br>
+
+        <div>
+            <div>
+                <p id="ques"></p>
+            </div>
+
+            <div>
+                <input onclick="btnWork()" type="radio" name="quiz" id="">
+                <label  id="opt1" for=""> </label>
+            </div>
+
+            <div>
+                <input onclick="btnWork()" type="radio" name="quiz" id="">
+                <label id="opt2" for=""></label>
+            </div>
+
+            <div>
+                <input onclick="btnWork()" type="radio" name="quiz" id="">
+                <label id="opt3" for=""></label>
+            </div>
+
+        </div>
+        <br><br>
+
+        <button id="btn" disabled onclick="nextQuestion()">Next</button>
+
+
+    </center>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

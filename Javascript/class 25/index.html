@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+
+    <style>
+        li{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+            align-items: center;
+        }
+    </style>
+
+
+</head>
+
+<body class="container m-3">
+
+    <h1>Todo App</h1>
+    <br>
+    <input class="form-control" type="text" name="" id="todo">
+    
+    <br>
+    <center>
+        <button onclick="addTodo()" class="btn btn-success">Add</button>
+        <button onclick="clr()" class="btn btn-danger">Delete all</button>
+    </center>
+
+    <ul id="ul">
+
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

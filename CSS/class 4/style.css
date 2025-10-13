@@ -1,0 +1,90 @@
+/* ul > li{ */
+
+/* text-align: center; */
+/* list-style: upper-alpha inside; */
+
+/* list-style-type: lower-roman;
+    text-align: center;
+    list-style-position: outside; */
+
+/* } */
+
+/* table {
+    border: 10px solid red;
+    width: 70%;
+    height: 400px;
+    font-size: x-large;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+    border-spacing: 15px;
+    margin-top: 100px;
+} */
+
+/* td,
+th {
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+td:hover {
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+    transition: 1s;
+    background-color: pink;
+    border: 3px solid red;
+    color: black;
+} */
+
+/* label{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    border: 10px solid red;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+input{
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+input:focus{
+    background-color: white;
+    color: black;
+}
+
+
+input:hover{
+    cursor: pointer;
+} */
+
+
+/* body{
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg');
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+} */
+
+i{
+    color: yellow;
+
+}
+
+td{
+    background-color: black;
+}
