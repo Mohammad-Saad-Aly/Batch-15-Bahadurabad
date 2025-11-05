@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import 'dotenv/config'
 
-const url = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster1.zeqvddz.mongodb.net/${process.env.DB_NAME}?appName=Cluster1`
+const url = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.riuzj9e.mongodb.net/${process.env.DB_NAME}?appName=Cluster1`
 
 async function connectDB() {
     try {
